@@ -21,4 +21,4 @@ Manggo 快捷划词，会根据选择的文本弹出不同的功能
 npm run package
 ```
 
-然后在 Manggo 的“插件管理”页面安装 `dist/manggo-plugin-quicktext.mplugin`。安装完成后，可在“划词助手”的动作列表中点击“快捷搜索”右侧的编辑按钮选择搜索引擎。
+然后在 Manggo 的“插件管理”页面安装 `dist/manggo-plugin-quicktext.mplugin`。安装完成后，可在“划词助手”的动作列表右侧的编辑按钮选择搜索引擎，默认为百度。
