@@ -11,15 +11,6 @@ Manggo 快捷划词，会根据选择的文本弹出不同的功能
 - 打开网址。选择 HTTP/HTTPS 网址时显示“打开网址”，点击后用系统默认浏览器打开。
 - 运算。选择算术表达式时显示“计算并复制结果”。支持小数、括号及 `+`、`-`、`*`、`/`（也支持 `×`、`÷`）；结果会复制到剪贴板，并显示 Manggo 的复制通知。
 - 打开文件夹。识别文本为文件路径后可打开文件夹
-- 文件搜索，需搭配Everything、Listary使用，首次使用请在 `划词助手-文件搜索` 中配置 `Everything.exe` `Listary.exe`路径
-- 创建提醒，目前仅支持滴答清单
-
-## 安装
-
-运行：
-
-```
-npm run package
-```
-
-然后在 Manggo 的“插件管理”页面安装 `dist/manggo-plugin-quicktext.mplugin`。安装完成后，可在“划词助手”的动作列表右侧的编辑按钮选择搜索引擎，默认为百度，以及开启各项功能。
+- 文件搜索。需搭配Everything、Listary、Lertaro使用，首次使用请在 `划词助手-文件搜索` 中配置 `Everything.exe` `Listary.exe` `Lertaro.exe`路径
+- 创建提醒。目前仅支持滴答清单
+- 发送到局域网。搭配Lertaro、LocalSend可以将划词的文本发送到局域网内其他设备
