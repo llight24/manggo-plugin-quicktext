@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">荧光笔划词图标</title>
+  <desc id="desc">深色字母 T 配合斜向黄色荧光笔和自然弯曲的黄色高亮笔迹。</desc>
+  <defs>
+    <linearGradient id="ink" x1="52" y1="55" x2="133" y2="174" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#374253"/><stop offset="1" stop-color="#222B39"/>
+    </linearGradient>
+    <linearGradient id="marker" x1="163" y1="54" x2="224" y2="129" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE875"/><stop offset="0.55" stop-color="#FFD34D"/><stop offset="1" stop-color="#FFBE35"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="31" y1="202" x2="167" y2="187" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE15C"/><stop offset="1" stop-color="#FFD237"/>
+    </linearGradient>
+  </defs>
+  <!-- Organic highlight, intentionally not perfectly straight -->
+  <path d="M34 205C53 196 76 190 101 189C119 188 133 195 143 198C154 201 165 193 176 180" stroke="url(#stroke)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M37 207C61 195 82 194 103 193" stroke="#FFF19C" stroke-opacity=".45" stroke-width="5" stroke-linecap="round"/>
+  <!-- Serif T, drawn as paths instead of font-dependent text -->
+  <path d="M45 73C47 64 52 61 62 61H135C142 61 145 65 143 73L140 87C139 93 132 94 129 89L124 79C122 75 118 73 113 73H106L87 152C85 160 89 162 98 163C103 164 105 170 100 174C97 176 92 176 85 176H57C52 176 49 173 50 169C51 165 55 163 62 162C69 161 72 159 74 152L93 73H78C71 73 67 75 63 81L55 92C51 98 43 94 44 88Z" fill="url(#ink)"/>
+  <!-- Highlighter nib sits on end of brush stroke -->
+  <g transform="rotate(34 184 123)">
+    <rect x="160" y="49" width="60" height="95" rx="22" fill="url(#marker)"/>
+    <path d="M170 62C174 55 181 53 187 54" stroke="#FFF8BF" stroke-width="7" stroke-linecap="round" opacity=".85"/>
+    <path d="M160 113H220V145C220 151 215 156 209 156H171C165 156 160 151 160 145V113Z" fill="#303A49"/>
+    <path d="M164 123H216" stroke="#546070" stroke-opacity=".48" stroke-width="3"/>
+    <path d="M174 156H206L201 181C200 185 195 188 190 188C185 188 180 185 179 181L174 156Z" fill="#FFC918"/>
+    <path d="M182 170H198" stroke="#FFE76D" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  </g>
+  <!-- Small playful movement marks -->
+  <path d="M167 38L162 27" stroke="#FFD33F" stroke-width="7" stroke-linecap="round"/>
+  <path d="M183 34L186 23" stroke="#FFD33F" stroke-width="7" stroke-linecap="round"/>
+</svg>
