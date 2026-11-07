@@ -1,4 +1,6 @@
-# manggo-plugin-quicktext
+<h1 align="left">
+<a href="https://github.com/llight24/manggo-plugin-quicktext"><img src="icon.svg" alt="quicktext" width="64" valign="middle" /></a>manggo-plugin-quicktext
+</h1>
 
 Manggo 快捷划词，会根据选择的文本弹出不同的功能
 
